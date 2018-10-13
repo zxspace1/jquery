@@ -1,3 +1,7 @@
+body {
+    height: 300vh;
+}
+
 .decor {
     background-color: aqua;
 }
@@ -5,3 +9,4 @@
 .page {
     background-color: yellow;
 }
+
