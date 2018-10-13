@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>jQuery</title>
+    <title>Slider</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
-   
+
 <body>
-   <h1 id="first">Mój elegancki tytuł</h1>
-   <h2 id="second"> Mój eleganckitytuł h2</h2>
-   <p id="paragraf"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, amet, aliquid provident beatae maiores molestias.</p>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione voluptatum nobis, accusamus velit! Modi eius explicabo nobis magni voluptatibus repudiandae temporibus, eum. In quod officiis fugiat, rem autem magnam commodi!</p>
-   
-   <div class="anim">
-       <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deserunt.</p>
-       <p class="paragraf paragraf-next">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, deserunt.</p>
-   </div>
-   
-   <a href="mailto:aaa@orange.pl"></a>
-   
-   
+    <!--slider-->
+    <div class="slider">
+        <div class="slide-show">
+            <!--slid-item-->
+            <figure class="single-slide">
+                <img src="img/blue.jpg" alt="">
+                <figcaption class="slide-caption">Slajd 1</figcaption>
+            </figure>
+            <!--slider end-->
+            <!--slid-item-->
+            <figure class="single-slide">
+                <img src="img/purple.jpg" alt="">
+                <figcaption class="slide-caption">Slajd 2</figcaption>
+            </figure>
+            <!--slider end-->
+            <!--slid-item-->
+            <figure class="single-slide">
+                <img src="img/slide1.jpg" alt="">
+                <figcaption class="slide-caption">Slajd 3</figcaption>
+            </figure>
+            <!--slider end-->
+            <!--slid-item-->
+            <figure class="single-slide">
+                <img src="img/slide2.jpg" alt="">
+                <figcaption class="slide-caption">Slajd 4</figcaption>
+            </figure>
+            <!--slider end-->
+        </div>
+
+        <button class="slider-nav slider-nav-prev"> <i class="fas fa-arrow-left"></i></button>
+
+        <button class="slider-nav slider-nav-next"><i class="fas fa-arrow-right"></i></button>
+
+    </div>
+
+
+
     <!-- twoje skrypty-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-    <script src="js/6-animacje.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
