@@ -40,4 +40,15 @@ $('p').css({
     'font-size': '2rem',
     'color': 'blue',
     'padding': '20px'
-})
+});
+
+// dodoawanie i usuwanie klas
+
+//setTimeout(function(){
+////        $('body').addClass('decor');
+//    $('body').removeClass('page');
+//    },2000);
+
+//setInterval(function(){
+//    $('body').toggleClass('decor');
+//},1500);
